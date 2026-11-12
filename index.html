@@ -53,8 +53,8 @@
       <button class="btn btn-shopier btn-shopier-trigger" style="font-size: 1.1rem; padding: 0.95rem 2.2rem;">
         <i class="fa-solid fa-bag-shopping"></i> Shopier ile Hemen Satın Al
       </button>
-      <a href="#demo" class="btn btn-secondary" style="font-size: 1.1rem; padding: 0.95rem 2rem;">
-        <i class="fa-solid fa-play"></i> Canlı Simülatörü Gör
+      <a href="#demo" onclick="switchGameTab('video')" class="btn btn-secondary" style="font-size: 1.1rem; padding: 0.95rem 2rem;">
+        <i class="fa-solid fa-circle-play"></i> Tanıtım Videosunu İzle
       </a>
     </div>
 
@@ -87,7 +87,10 @@
 
     <!-- Game Selector Tabs -->
     <div class="game-tab-bar">
-      <button class="game-tab-btn active" data-game="gow">
+      <button class="game-tab-btn active" data-game="video">
+        <i class="fa-solid fa-circle-play" style="color: var(--accent-green);"></i> 🎥 Tanıtım Videosu
+      </button>
+      <button class="game-tab-btn" data-game="gow">
         <i class="fa-solid fa-axe"></i> God of War Ragnarök
       </button>
       <button class="game-tab-btn" data-game="tlou">
@@ -101,8 +104,23 @@
       </button>
     </div>
 
+    <!-- Official Promotional Walkthrough Video View -->
+    <div class="game-showcase-view active" id="view-video">
+      <div class="app-screenshot-frame" style="background: #000; padding: 0;">
+        <video controls poster="assets/ui-main-window.png" style="width: 100%; border-radius: 12px; display: block;" preload="metadata">
+          <source src="assets/promo-video.mp4" type="video/mp4">
+          Tarayıcınız video etiketini desteklemiyor.
+        </video>
+      </div>
+      <div class="game-badge-row">
+        <div class="game-badge-item"><i class="fa-solid fa-film" style="color: var(--accent-green);"></i> <b>1080p 60FPS</b> Resmi Tanıtım & Rehber</div>
+        <div class="game-badge-item"><i class="fa-solid fa-desktop" style="color: var(--accent-purple);"></i> <b>Gerçek Arayüz</b> Adım Adım İnceleme</div>
+        <div class="game-badge-item"><i class="fa-solid fa-tv" style="color: var(--accent-blue);"></i> <b>TV & PC</b> Canlı Çeviri Katmanı</div>
+      </div>
+    </div>
+
     <!-- Gameplay View: God of War -->
-    <div class="game-showcase-view active" id="view-gow">
+    <div class="game-showcase-view" id="view-gow">
       <div class="app-screenshot-frame">
         <img src="assets/gameplay-gow.png" alt="God of War Ragnarök PS5 Canlı Türkçe Çeviri" class="app-screenshot-img">
       </div>
