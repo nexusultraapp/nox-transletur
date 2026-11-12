@@ -337,7 +337,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // --- 6. PROTECTED DOWNLOAD & VERIFICATION ---
-const GITHUB_RELEASE_SETUP_URL = "https://github.com/nexusultraapp/nox-transletur/releases/download/v1.0.0/NOXIR_Play_Setup_v1.0.exe";
+// Buraya Google Drive, Mega veya bulut indirme linkinizi yapıştırabilirsiniz:
+const PRIVATE_SETUP_DOWNLOAD_URL = "https://www.shopier.com/";
 
 function handleDownloadVerification() {
   const input = document.getElementById("orderInput");
@@ -358,11 +359,11 @@ function handleDownloadVerification() {
   msg.style.background = "rgba(0, 230, 118, 0.12)";
   msg.style.border = "1px solid rgba(0, 230, 118, 0.3)";
   msg.style.color = "#a7f3d0";
-  msg.innerHTML = "<i class='fa-solid fa-circle-check'></i> <b>Lisans Onaylandı!</b> 1.89 GB resmi GitHub kurulum paketi indiriliyor...";
+  msg.innerHTML = "<i class='fa-solid fa-circle-check'></i> <b>Lisans Onaylandı!</b> Kurulum paketi indirme sayfasına yönlendiriliyorsunuz...";
 
   setTimeout(() => {
-    window.location.href = GITHUB_RELEASE_SETUP_URL;
-  }, 900);
+    window.location.href = PRIVATE_SETUP_DOWNLOAD_URL;
+  }, 1000);
 }
 
 function checkUrlPurchaseParams() {
@@ -376,10 +377,10 @@ function checkUrlPurchaseParams() {
       msg.style.background = "rgba(0, 230, 118, 0.15)";
       msg.style.border = "1px solid rgba(0, 230, 118, 0.35)";
       msg.style.color = "#a7f3d0";
-      msg.innerHTML = "🎉 <b>Ödemeniz Onaylandı!</b> Kurulum dosyanız (1.89 GB) birkaç saniye içinde otomatik olarak inmeye başlayacaktır...";
+      msg.innerHTML = "🎉 <b>Ödemeniz Onaylandı!</b> Kurulum dosyanız birkaç saniye içinde açılacaktır...";
     }
     setTimeout(() => {
-      window.location.href = GITHUB_RELEASE_SETUP_URL;
+      window.location.href = PRIVATE_SETUP_DOWNLOAD_URL;
     }, 1800);
   }
 }
