@@ -1,0 +1,4 @@
+# Sadece web sitesi dosyalarını barındır
+.DS_Store
+Thumbs.db
+node_modules/
