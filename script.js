@@ -209,7 +209,26 @@ function toggleOriginalView() {
   if (btn) btn.classList.toggle("active", showOriginal);
 }
 
-// --- 2. INTERACTIVE APP UI MOCKUP TABS ---
+// --- 2. GAME TAB SWITCHER ---
+function switchGameTab(gameName) {
+  const tabBtns = document.querySelectorAll(".game-tab-btn");
+  const views = document.querySelectorAll(".game-showcase-view");
+
+  tabBtns.forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.game === gameName);
+  });
+
+  views.forEach(view => {
+    view.classList.toggle("active", view.id === "view-" + gameName);
+  });
+
+  // If switched to canvas simulator, trigger resize
+  if (gameName === "sim" && typeof initCanvas === "function") {
+    setTimeout(initCanvas, 50);
+  }
+}
+
+// --- 2.5 INTERACTIVE APP UI MOCKUP TABS ---
 function switchAppTab(tabName) {
   const navItems = document.querySelectorAll(".app-nav-item");
   const tabPanes = document.querySelectorAll(".app-tab-pane");
@@ -282,6 +301,14 @@ document.addEventListener("DOMContentLoaded", () => {
   appNavItems.forEach(item => {
     item.addEventListener("click", () => {
       switchAppTab(item.dataset.tab);
+    });
+  });
+
+  // Game tabs event listeners (God of War, The Last of Us, Cyberpunk, Simülatör)
+  const gameTabBtns = document.querySelectorAll(".game-tab-btn");
+  gameTabBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      switchGameTab(btn.dataset.game);
     });
   });
 
