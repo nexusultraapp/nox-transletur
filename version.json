@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minSupportedVersion": "1.0.0",
   "releaseDate": "2026-11-13",
-  "title": "NOXIR Play v1.0.0",
-  "changelog": "Yeni karanlık uygulama simgesi, PS5 canlı altyazı motoru ve otomatik güncelleme altyapısı.",
-  "downloadUrl": "https://noxirplay.vercel.app/setup/NOXIR_Play_Setup_v1.0.exe",
-  "fallbackDownloadUrl": "https://www.shopier.com/ggplayyusuf/52873712",
+  "title": "NOXIR Play v1.0.1",
+  "changelog": "TV yükleme yolundaki boşluk hatası (ares-cli) düzeltildi, yeni karanlık uygulama simgesi ve otomatik güncelleme eklendi.",
+  "downloadUrl": "https://github.com/nexusultraapp/nox-transletur/releases/download/v1.0.1/NOXIR_Play_Setup_v1.0.1.exe",
+  "fallbackDownloadUrl": "https://github.com/nexusultraapp/nox-transletur/releases/latest",
   "isCritical": false
 }
