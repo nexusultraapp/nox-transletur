@@ -251,21 +251,13 @@ function switchAppTab(tabName) {
 }
 
 // --- 3. SHOPIER PURCHASE MODAL & LINK ---
-/**
- * DİKKAT: Shopier mağaza veya ürün linkinizi aşağıdaki tırnakların içine yapıştırabilirsiniz.
- * Örn: const SHOPIER_DEFAULT_URL = "https://www.shopier.com/ShowProductNew/products.php?id=12345678";
- */
-const SHOPIER_DEFAULT_URL = "https://www.shopier.com/";
+const SHOPIER_DEFAULT_URL = "https://www.shopier.com/ggplayyusuf/52873712";
 
-function openShopierCheckout() {
-  const modal = document.getElementById("shopierModal");
-  const btnGo = document.getElementById("btnShopierGo");
-  if (btnGo) {
-    btnGo.href = SHOPIER_DEFAULT_URL;
+function openShopierCheckout(e) {
+  if (e && e.target && e.target.tagName === "A" && e.target.href && e.target.href.includes("shopier")) {
+    return; // Native <a> opens link directly
   }
-  if (modal) {
-    modal.classList.add("active");
-  }
+  window.open(SHOPIER_DEFAULT_URL, "_blank");
 }
 
 function closeShopierCheckout() {

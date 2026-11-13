@@ -3,7 +3,7 @@
 > **PlayStation 5 oyunlarını 15 ms ultra düşük gecikmeyle, çevrimdışı yapay zeka ile canlı Türkçe altyazıyla oynayın.**
 
 🌐 **Resmi Tanıtım Sitesi:** [https://noxirplay.vercel.app](https://noxirplay.vercel.app)  
-🛒 **Shopier ile Satın Al:** [Shopier Güvenli Ödeme Noktası](https://www.shopier.com/)
+🛒 **Shopier ile Satın Al:** [Shopier Güvenli Ödeme Noktası](https://www.shopier.com/ggplayyusuf/52873712)
 
 ---
 
