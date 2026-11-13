@@ -54,7 +54,7 @@
         <i class="fa-solid fa-bag-shopping"></i> Shopier ile Hemen Satın Al
       </a>
       <a href="#demo" class="btn btn-secondary" style="font-size: 1.1rem; padding: 0.95rem 2rem;">
-        <i class="fa-solid fa-play"></i> Canlı Simülatörü Gör
+        <i class="fa-solid fa-gamepad"></i> Oyun Çevirilerini İncele
       </a>
     </div>
 
@@ -96,9 +96,6 @@
       <button class="game-tab-btn" data-game="cyberpunk">
         <i class="fa-solid fa-bolt"></i> Cyberpunk 2077
       </button>
-      <button class="game-tab-btn" data-game="sim">
-        <i class="fa-solid fa-play"></i> ⚡ Canlı İnteraktif Simülatör
-      </button>
     </div>
 
     <!-- Gameplay View: God of War -->
@@ -134,68 +131,6 @@
         <div class="game-badge-item"><i class="fa-solid fa-gauge-high" style="color: var(--accent-green);"></i> <b>9 ms</b> Rekor Düşük Gecikme</div>
         <div class="game-badge-item"><i class="fa-brands fa-nvidia" style="color: #76b900;"></i> <b>NVIDIA CUDA</b> Tensör Çekirdekleri</div>
         <div class="game-badge-item"><i class="fa-solid fa-bolt" style="color: var(--accent-blue);"></i> <b>60 FPS</b> Senkron</div>
-      </div>
-    </div>
-
-    <!-- Interactive Canvas Simulator View -->
-    <div class="game-showcase-view" id="view-sim">
-      <div class="video-frame">
-        <div class="video-header">
-          <div class="video-dots">
-            <span class="video-dot red"></span>
-            <span class="video-dot yellow"></span>
-            <span class="video-dot green"></span>
-          </div>
-          <div class="video-title">
-            <span class="live-indicator"></span>
-            <span id="hudScene">God of War Ragnarök - Aksiyon Sahnesi</span>
-          </div>
-          <div style="font-size: 0.8rem; color: #7c4dff; font-weight: 700;">
-            PS5 CANLI AKIŞ · 1080p 60FPS
-          </div>
-        </div>
-
-        <div class="video-canvas-container">
-          <canvas id="gameCanvas"></canvas>
-
-          <div class="hud-overlay">
-            <div class="hud-pill highlight">
-              <i class="fa-solid fa-clock"></i>
-              <span>Çeviri Gecikmesi: <b id="hudLatency">11 ms</b></span>
-            </div>
-            <div class="hud-pill engine">
-              <i class="fa-solid fa-microchip"></i>
-              <span>Motor: <b>Opus-MT INT8 (NVIDIA CUDA)</b></span>
-            </div>
-            <div class="hud-pill">
-              <i class="fa-solid fa-font"></i>
-              <span>Algılama: <b>PP-OCRv6 Small (CLAHE)</b></span>
-            </div>
-          </div>
-
-          <div class="orig-subtitle-box" id="origSubtitleBox">
-            <span style="font-size: 0.75rem; color: #ffbd2e; display: block; margin-bottom: 2px;">🇬🇧 Orijinal İngilizce Altyazı:</span>
-            <span id="origSubtitleText">Do not be sorry. Be better! The path ahead is treacherous.</span>
-          </div>
-
-          <div class="trans-subtitle-box" id="transSubtitleBox">
-            <span class="badge-tr">TR</span>
-            <span id="transSpeaker" style="color: #ffbd2e; margin-right: 6px;">KRATOS:</span>
-            <span id="transSubtitleText">Özür dileme. Daha iyi ol! Önümüzdeki yol tehlikelerle dolu.</span>
-          </div>
-        </div>
-
-        <div class="sim-controls">
-          <div class="sim-btn-group">
-            <button class="sim-btn" id="btnTogglePlay">⏸️ Duraklat</button>
-            <button class="sim-btn" id="btnNextScene">🎮 Sahne Değiştir</button>
-            <button class="sim-btn active" id="btnToggleOrig">👁️ Orijinal Yazıyı Göster</button>
-          </div>
-          <div style="font-size: 0.85rem; color: var(--text-secondary);">
-            <i class="fa-solid fa-circle-check" style="color: var(--accent-green); margin-right: 5px;"></i>
-            Canlı PS5 ekranı ve TV altyazı senkronizasyonu devrede
-          </div>
-        </div>
       </div>
     </div>
   </section>
