@@ -495,7 +495,8 @@ nav {
   background: #090b11;
   display: flex;
   flex-direction: column;
-  height: 680px;
+  height: auto;
+  min-height: 620px;
 }
 
 .app-titlebar {
@@ -515,6 +516,7 @@ nav {
 
 .app-sidebar {
   width: 240px;
+  flex-shrink: 0;
   background: #0f131d;
   border-right: 1px solid rgba(255, 255, 255, 0.06);
   display: flex;
@@ -549,6 +551,7 @@ nav {
 
 .app-content {
   flex: 1;
+  min-width: 0;
   padding: 1.8rem;
   overflow-y: auto;
   background: #090b11;
@@ -925,11 +928,13 @@ footer a {
   color: #cfd8dc;
 }
 
+@media (max-width: 900px) {
   nav { padding: 1rem 1.5rem; }
   .nav-links { display: none; }
   .hero h1 { font-size: 2.5rem; }
   .mockup-grid { grid-template-columns: 1fr; }
-  .app-sidebar { width: 70px; }
+  .app-sidebar { width: 64px; padding: 0.8rem 0.4rem; }
+  .app-nav-item { justify-content: center; padding: 0.7rem; }
   .app-nav-item span { display: none; }
   .video-canvas-container { height: 380px; }
   .pricing-card { padding: 2rem 1.5rem; }
