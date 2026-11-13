@@ -1,10 +1,10 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "minSupportedVersion": "1.0.0",
   "releaseDate": "2026-11-13",
-  "title": "NOXIR Play v1.0.3",
-  "changelog": "• LG webOS TV yüklemesinde Adım 3'te (ares-novacom --getkey) beklemede kalma sorunu giderildi.\n• Uygulama içine 'Hakkında' ve 'Bunlar Getirildi' (Sürüm Notları) ekranı eklendi.\n• Güncellemeler artık tarayıcıya yönlendirmeden doğrudan uygulama içinden indiriliyor.",
-  "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.3.exe",
-  "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.3.exe",
+  "title": "NOXIR Play v1.0.4",
+  "changelog": "• Güncelleme denetimi yalnızca 'Hakkında' sayfasına taşındı; Çeviri Ayarları sadeleştirildi.\n• LG webOS TV yüklemesinde Adım 3'te (ares-novacom --getkey) beklemede kalma sorunu giderildi.\n• Güncelleme sonrası sürüm numarasının kalıcı olarak güncellenmesi sağlandı.",
+  "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.4.exe",
+  "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.4.exe",
   "isCritical": false
 }
