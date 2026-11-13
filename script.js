@@ -111,11 +111,6 @@ async function loadSiteVersionManifest() {
           });
         }
       }
-      const updateBtn = document.getElementById("siteUpdateDownloadBtn");
-      if (updateBtn) {
-        updateBtn.href = `updates/NOXIR_Play_Update_v${data.version}.exe`;
-        updateBtn.innerHTML = `<i class="fa-solid fa-cloud-arrow-down"></i> Güncelleme İndir (v${data.version})`;
-      }
     }
   } catch (_) {
     // Sessizce geç, varsayılan HTML metni görünmeye devam eder
