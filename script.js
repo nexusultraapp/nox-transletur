@@ -82,6 +82,35 @@ async function loadSiteVersionManifest() {
       if (heroBadge) {
         heroBadge.innerHTML = `<i class="fa-solid fa-bolt"></i> Yeni Nesil Yapay Zeka Oyun Çevirisi · v${data.version}`;
       }
+
+      const changelogTitle = document.getElementById("siteChangelogTitle");
+      if (changelogTitle) {
+        changelogTitle.textContent = `${data.title || "NOXIR Play v" + data.version} ile Bunlar Getirildi`;
+      }
+
+      const changelogMeta = document.getElementById("siteChangelogMeta");
+      if (changelogMeta) {
+        changelogMeta.textContent = `Sürüm: v${data.version}${data.releaseDate ? " · " + data.releaseDate : ""}`;
+      }
+
+      const changelogList = document.getElementById("siteChangelogList");
+      if (changelogList && data.changelog) {
+        const lines = data.changelog
+          .split(/\r?\n/)
+          .map(l => l.replace(/^[•\-\*]\s*/, "").trim())
+          .filter(Boolean);
+        if (lines.length > 0) {
+          changelogList.innerHTML = "";
+          lines.forEach(line => {
+            const li = document.createElement("li");
+            const icon = document.createElement("i");
+            icon.className = "fa-solid fa-check";
+            li.appendChild(icon);
+            li.appendChild(document.createTextNode(" " + line));
+            changelogList.appendChild(li);
+          });
+        }
+      }
     }
   } catch (_) {
     // Sessizce geç, varsayılan HTML metni görünmeye devam eder
