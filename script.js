@@ -111,6 +111,11 @@ async function loadSiteVersionManifest() {
           });
         }
       }
+      const updateBtn = document.getElementById("siteUpdateDownloadBtn");
+      if (updateBtn) {
+        updateBtn.href = `updates/NOXIR_Play_Update_v${data.version}.exe`;
+        updateBtn.innerHTML = `<i class="fa-solid fa-cloud-arrow-down"></i> Güncelleme İndir (v${data.version})`;
+      }
     }
   } catch (_) {
     // Sessizce geç, varsayılan HTML metni görünmeye devam eder
@@ -159,69 +164,4 @@ document.addEventListener("DOMContentLoaded", () => {
       closeShopierCheckout();
     }
   });
-
-  // Protected download verification button & URL params check
-  const btnVerify = document.getElementById("btnVerifyDownload");
-  if (btnVerify) {
-    btnVerify.addEventListener("click", handleDownloadVerification);
-  }
-
-  const orderInput = document.getElementById("orderInput");
-  if (orderInput) {
-    orderInput.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") {
-        handleDownloadVerification();
-      }
-    });
-  }
-
-  checkUrlPurchaseParams();
 });
-
-// --- 6. PROTECTED DOWNLOAD & VERIFICATION ---
-const PRIVATE_SETUP_DOWNLOAD_URL = "https://www.shopier.com/ggplayyusuf/52873712";
-
-function handleDownloadVerification() {
-  const input = document.getElementById("orderInput");
-  const msg = document.getElementById("verifyMessage");
-  if (!input || !msg) return;
-
-  const code = input.value.trim();
-  if (!code) {
-    msg.style.display = "block";
-    msg.style.background = "rgba(255, 82, 82, 0.12)";
-    msg.style.border = "1px solid rgba(255, 82, 82, 0.3)";
-    msg.style.color = "#ff8a80";
-    msg.innerHTML = "<i class='fa-solid fa-triangle-exclamation'></i> Lütfen Shopier sipariş kodunuzu veya lisans numaranızı giriniz.";
-    return;
-  }
-
-  msg.style.display = "block";
-  msg.style.background = "rgba(0, 230, 118, 0.12)";
-  msg.style.border = "1px solid rgba(0, 230, 118, 0.3)";
-  msg.style.color = "#a7f3d0";
-  msg.innerHTML = "<i class='fa-solid fa-circle-check'></i> <b>Lisans Onaylandı!</b> Kurulum paketi indirme sayfasına yönlendiriliyorsunuz...";
-
-  setTimeout(() => {
-    window.location.href = PRIVATE_SETUP_DOWNLOAD_URL;
-  }, 1000);
-}
-
-function checkUrlPurchaseParams() {
-  const params = new URLSearchParams(window.location.search);
-  if (params.get("purchased") === "true" || params.get("success") === "true" || params.get("order")) {
-    const msg = document.getElementById("verifyMessage");
-    const input = document.getElementById("orderInput");
-    if (input && params.get("order")) input.value = params.get("order");
-    if (msg) {
-      msg.style.display = "block";
-      msg.style.background = "rgba(0, 230, 118, 0.15)";
-      msg.style.border = "1px solid rgba(0, 230, 118, 0.35)";
-      msg.style.color = "#a7f3d0";
-      msg.innerHTML = "🎉 <b>Ödemeniz Onaylandı!</b> Kurulum dosyanız birkaç saniye içinde açılacaktır...";
-    }
-    setTimeout(() => {
-      window.location.href = PRIVATE_SETUP_DOWNLOAD_URL;
-    }, 1800);
-  }
-}
