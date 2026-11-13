@@ -72,8 +72,25 @@ function initFAQ() {
 }
 
 // --- 5. INITIALIZATION ---
+async function loadSiteVersionManifest() {
+  try {
+    const resp = await fetch(`version.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!resp.ok) return;
+    const data = await resp.json();
+    if (data && data.version) {
+      const heroBadge = document.getElementById("heroVersionBadge");
+      if (heroBadge) {
+        heroBadge.innerHTML = `<i class="fa-solid fa-bolt"></i> Yeni Nesil Yapay Zeka Oyun Çevirisi · v${data.version}`;
+      }
+    }
+  } catch (_) {
+    // Sessizce geç, varsayılan HTML metni görünmeye devam eder
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   initFAQ();
+  loadSiteVersionManifest();
 
   // App UI tabs event listeners
   const appNavItems = document.querySelectorAll(".app-nav-item");
