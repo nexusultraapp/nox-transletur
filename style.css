@@ -552,8 +552,8 @@ nav {
 .app-content {
   flex: 1;
   min-width: 0;
-  padding: 1.8rem;
-  overflow-y: auto;
+  padding: 1.5rem;
+  overflow: visible;
   background: #090b11;
 }
 
