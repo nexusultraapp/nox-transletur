@@ -4,7 +4,7 @@
   "releaseDate": "2026-11-13",
   "title": "NOXIR Play v1.0.2",
   "changelog": "• Uygulama içine 'Hakkında' ve 'Bunlar Getirildi' (Sürüm Notları) ekranı eklendi.\n• Güncellemeler artık siteye yönlendirmeden doğrudan uygulama içinden indiriliyor.\n• TV yükleme (ares-cli) yolundaki boşluk hatası giderildi ve karanlık simge güncellendi.",
-  "downloadUrl": "https://github.com/nexusultraapp/nox-transletur/releases/download/v1.0.2/NOXIR_Play_Setup_v1.0.2.exe",
-  "fallbackDownloadUrl": "https://github.com/nexusultraapp/nox-transletur/releases/latest",
+  "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.2.exe",
+  "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.2.exe",
   "isCritical": false
 }
