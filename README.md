@@ -2,8 +2,7 @@
 
 > **PlayStation 5 oyunlarını 15 ms ultra düşük gecikmeyle, çevrimdışı yapay zeka ile canlı Türkçe altyazıyla oynayın.**
 
-🌐 **Resmi Tanıtım Sitesi (GitHub Pages):** [https://nexusultraapp.github.io/nox-transletur/](https://nexusultraapp.github.io/nox-transletur/)  
-🌐 **Alternatif Ayna (Vercel):** [https://noxirplay.vercel.app](https://noxirplay.vercel.app)  
+🌐 **Resmi Tanıtım Sitesi:** [https://nexusultraapp.github.io/nox-transletur/](https://nexusultraapp.github.io/nox-transletur/)  
 🛒 **Shopier ile Satın Al:** [Shopier Güvenli Ödeme Noktası](https://www.shopier.com/ggplayyusuf/52873712)
 
 ---
