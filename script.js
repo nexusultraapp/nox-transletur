@@ -153,10 +153,35 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Escape key to close modal
+  // Mobile navigation drawer
+  const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+  const mobileNavDrawer = document.getElementById("mobileNavDrawer");
+  if (mobileMenuBtn && mobileNavDrawer) {
+    mobileMenuBtn.addEventListener("click", () => {
+      const isOpen = mobileNavDrawer.classList.toggle("active");
+      const icon = mobileMenuBtn.querySelector("i");
+      if (icon) {
+        icon.className = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
+      }
+    });
+    mobileNavDrawer.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        mobileNavDrawer.classList.remove("active");
+        const icon = mobileMenuBtn.querySelector("i");
+        if (icon) icon.className = "fa-solid fa-bars";
+      });
+    });
+  }
+
+  // Escape key to close modal and mobile drawer
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
       closeShopierCheckout();
+      if (mobileNavDrawer && mobileNavDrawer.classList.contains("active")) {
+        mobileNavDrawer.classList.remove("active");
+        const icon = mobileMenuBtn ? mobileMenuBtn.querySelector("i") : null;
+        if (icon) icon.className = "fa-solid fa-bars";
+      }
     }
   });
 });

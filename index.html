@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NOXIR Play - PS5 Gerçek Zamanlı Yapay Zeka Çeviri & TV Altyazı Sistemi</title>
   <link rel="icon" type="image/x-icon" href="assets/app.ico">
-  <link rel="stylesheet" href="style.css?v=1.0.6">
+  <link rel="stylesheet" href="style.css?v=1.0.7">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -25,14 +25,29 @@
       <li><a href="#sss">SSS</a></li>
     </ul>
     <div class="nav-cta">
-      <a href="https://www.shopier.com/ggplayyusuf/52873712" target="_blank" class="btn btn-shopier" style="text-decoration: none;">
+      <a href="https://www.shopier.com/ggplayyusuf/52873712" target="_blank" class="btn btn-shopier nav-buy-btn" style="text-decoration: none;">
         <i class="fa-solid fa-cart-shopping"></i> Satın Al (Shopier)
       </a>
-      <a href="#kurulum" class="btn btn-secondary">
+      <a href="#kurulum" class="btn btn-secondary nav-guide-btn">
         <i class="fa-solid fa-circle-play"></i> Nasıl Kurulur?
       </a>
+      <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menüyü Aç">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </div>
   </nav>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <a href="#demo" class="mobile-nav-link">Canlı Tanıtım</a>
+    <a href="#arayuz" class="mobile-nav-link">Uygulama Arayüzü</a>
+    <a href="#ozellikler" class="mobile-nav-link">Özellikler</a>
+    <a href="#kurulum" class="mobile-nav-link">Nasıl Kurulur?</a>
+    <a href="#sss" class="mobile-nav-link">SSS</a>
+    <a href="https://www.shopier.com/ggplayyusuf/52873712" target="_blank" class="btn btn-shopier" style="width: 100%; justify-content: center; text-decoration: none; margin-top: 0.4rem;">
+      <i class="fa-solid fa-cart-shopping"></i> Shopier ile Satın Al
+    </a>
+  </div>
 
   <!-- Hero Section -->
   <header class="hero">
@@ -574,6 +589,6 @@
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=1.0.7"></script>
 </body>
 </html>

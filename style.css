@@ -638,7 +638,7 @@ nav {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.8rem;
 }
 
@@ -928,9 +928,55 @@ footer a {
   color: #cfd8dc;
 }
 
+/* Mobile Navigation Controls */
+.mobile-menu-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border-color);
+  color: #fff;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.mobile-nav-drawer {
+  display: none;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: rgba(10, 14, 24, 0.97);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem 1.25rem 1.4rem;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mobile-nav-drawer.active {
+  display: flex;
+}
+
+.mobile-nav-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.65rem 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
 @media (max-width: 900px) {
-  nav { padding: 1rem 1.5rem; }
+  nav { padding: 0.85rem 1.25rem; }
   .nav-links { display: none; }
+  .mobile-menu-btn { display: inline-flex; }
+  .nav-guide-btn { display: none; }
   .hero h1 { font-size: 2.5rem; }
   .mockup-grid { grid-template-columns: 1fr; }
   .app-sidebar { width: 64px; padding: 0.8rem 0.4rem; }
@@ -938,6 +984,61 @@ footer a {
   .app-nav-item span { display: none; }
   .video-canvas-container { height: 380px; }
   .pricing-card { padding: 2rem 1.5rem; }
+}
+
+@media (max-width: 600px) {
+  nav { padding: 0.75rem 1rem; }
+  .logo-img { width: 32px; height: 32px; }
+  .logo-text { font-size: 1.05rem; }
+  .nav-buy-btn {
+    padding: 0.55rem 0.9rem;
+    font-size: 0.82rem;
+    border-radius: 10px;
+  }
+  .mobile-nav-drawer { top: 62px; }
+  .hero { padding: 6rem 1rem 3.2rem; }
+  .hero h1 { font-size: 1.95rem; line-height: 1.2; }
+  .hero p { font-size: 0.96rem; }
+  .hero-actions { flex-direction: column; align-items: stretch; gap: 0.8rem; }
+  .hero-actions .btn { width: 100%; font-size: 0.98rem !important; padding: 0.85rem 1.2rem !important; }
+  .stat-pills { gap: 0.55rem; }
+  .stat-pill { font-size: 0.8rem; padding: 0.45rem 0.8rem; }
+  .section-header h2 { font-size: 1.6rem; }
+  .section-header p { font-size: 0.92rem; }
+  .showcase-section,
+  .app-showcase-section,
+  .features-section,
+  .pricing-section,
+  .faq-section {
+    padding: 3rem 1rem;
+  }
+  .game-tab-bar { gap: 0.5rem; }
+  .game-tab-btn { padding: 0.55rem 0.9rem; font-size: 0.82rem; }
+  .game-badge-row { gap: 0.6rem; }
+  .game-badge-item { font-size: 0.8rem; padding: 0.5rem 0.85rem; width: 100%; justify-content: center; }
+  .app-window { min-height: auto; }
+  .app-body { flex-direction: column; }
+  .app-sidebar {
+    width: 100%;
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 0.5rem;
+    gap: 0.4rem;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .app-nav-item {
+    margin-bottom: 0;
+    padding: 0.55rem 0.8rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .app-nav-item span { display: inline; font-size: 0.8rem; }
+  .app-content { padding: 1rem; }
+  .pricing-card { padding: 2rem 1.15rem; }
+  .popular-ribbon { font-size: 0.7rem; padding: 5px 38px; top: 18px; right: -40px; }
+  .shopier-modal-backdrop { padding: 0.75rem; }
+  .shopier-modal-card { padding: 1.5rem 1.15rem; max-height: 92vh; overflow-y: auto; }
 }
 
 /* Shopier Modal */
