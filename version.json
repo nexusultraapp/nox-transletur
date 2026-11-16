@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "minSupportedVersion": "1.0.0",
+  "releaseDate": "2026-11-13",
+  "title": "NOXIR Play v1.0.0",
+  "changelog": "Yeni karanlık uygulama simgesi, PS5 canlı altyazı motoru ve otomatik güncelleme altyapısı.",
+  "downloadUrl": "https://noxirplay.vercel.app/setup/NOXIR_Play_Setup_v1.0.exe",
+  "fallbackDownloadUrl": "https://www.shopier.com/ggplayyusuf/52873712",
+  "isCritical": false
+}
