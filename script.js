@@ -40,13 +40,13 @@ function switchAppTab(tabName) {
 }
 
 // --- 3. SHOPIER PURCHASE MODAL & LINK ---
-const SHOPIER_DEFAULT_URL = "https://www.shopier.com/ggplayyusuf/52873712";
+const SHOPIER_URL = "https://www.shopier.com/ggplayyusuf/52873712";
 
 function openShopierCheckout(e) {
   if (e && e.target && e.target.tagName === "A" && e.target.href && e.target.href.includes("shopier")) {
     return; // Native <a> tag navigates directly
   }
-  window.open(SHOPIER_DEFAULT_URL, "_blank");
+  window.open(SHOPIER_URL, "_blank");
 }
 
 function closeShopierCheckout() {
@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // --- 6. PROTECTED DOWNLOAD & VERIFICATION ---
-const PRIVATE_SETUP_DOWNLOAD_URL = "https://www.shopier.com/ggplayyusuf/52873712";
+const PRIVATE_SETUP_DOWNLOAD_URL = SHOPIER_URL;
 
 function handleDownloadVerification() {
   const input = document.getElementById("orderInput");

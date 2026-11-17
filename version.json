@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
-  "minSupportedVersion": "1.0.0",
-  "releaseDate": "2026-11-13",
-  "title": "NOXIR Play v1.0.0",
-  "changelog": "Yeni karanlık uygulama simgesi, PS5 canlı altyazı motoru ve otomatik güncelleme altyapısı.",
-  "downloadUrl": "https://noxirplay.vercel.app/setup/NOXIR_Play_Setup_v1.0.exe",
-  "fallbackDownloadUrl": "https://www.shopier.com/ggplayyusuf/52873712",
-  "isCritical": false
+    "version":  "1.0.7",
+    "minSupportedVersion":  "1.0.0",
+    "releaseDate":  "2026-11-17",
+    "title":  "NOXIR Play v1.0.7",
+    "changelog":  "• JSON Türkçe diyalog paketi desteği eklendi (çeviri motoru olmadan doğrudan paketten eşleştirme)\n• Oyun Kütüphanesi\u0027ndeki hazır örnek profiller kaldırıldı\n• Arayüz başlatma (StaticResource) hatası giderildi",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.7.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.7.exe",
+    "isCritical":  false
 }
