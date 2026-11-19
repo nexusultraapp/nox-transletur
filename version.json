@@ -1,11 +1,11 @@
 {
-    "version": "1.0.13",
+    "version": "1.0.14",
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-11-19",
-    "title": "NOXIR Play v1.0.13",
-    "changelog": "• Evrensel Akıllı Oyun Hafızası (Her Oyuna Otomatik Uyum): Oynadığınız her oyunun türünü/evrenini canlı diyaloglardan kendisi algılar ve bağlama ekler\n• Her oyundan otomatik varlık öğrenme: Unvanlı karakterler, bölge kodları, çok kelimeli mekânlar ve örgütler otomatik sınıflandırılıp çeviride bozulmadan korunur\n• Çok turlu kanıta dayalı otomatik ton & Resmî (Siz) / Samimi (Sen) hitap çıkarımı ve konuşmacı etiketsiz oyunlarda sahne/anahtar kelime bağlam eşleştirmesi eklendi\n• Oyun Hafızası penceresine canlı algılanan tür göstergesi ve '✓ Tümünü Onayla' toplu onay butonu eklendi",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.13.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.13.exe",
+    "title": "NOXIR Play v1.0.14",
+    "changelog": "• Smart Subtitle Styling (Akıllı Altyazı Görünümü) eklendi: 5 görsel profil (Cinematic, Modern, Fantasy, Sci-Fi, Minimal) ile Türkçe altyazılar oyunun kendi görsel tarzına doğal uyarlanır\n• Orijinal altyazı piksel analizi (renk, kalınlık, parlak sahne), Türkçe karakter (ç, ğ, ı, İ, ö, ş, ü) doğrulamalı font seçimi ve 1080p/1440p/4K otomatik boyutlandırma eklendi\n• Varsayılan koyu kutusuz doğal gölge + ince kontur görünümü ve 15 ayarlı canlı önizlemeli '🎨 Altyazı Görünümü' penceresi eklendi\n• Manuel altyazı bölgesi ile otomatik görev/eşya/bildirim katmanları birbirine karışmadan çalışır",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.14.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.14.exe",
     "modelVersion": "2.0.0",
     "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/lingua-v2/manifest.json",
     "isCritical": false
