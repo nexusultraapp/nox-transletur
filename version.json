@@ -1,11 +1,11 @@
 {
-    "version": "1.0.10",
+    "version": "1.0.11",
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-11-19",
-    "title": "NOXIR Play v1.0.10",
-    "changelog": "• NVIDIA Donanım Hızlandırması (CUDA 12 / cuDNN 9 / CTranslate2) yenilendi: VRAM-güvenli HEURISTIC optimizasyonu, bloklamayan anlık GPU durum takibi ve tüm 7 kritik CUDA DLL doğrulaması\n• Tek tıkla 'CUDA Güncelle / Onar' ve yeniden başlatmadan canlı NVIDIA GPU ↔ CPU (VRAM Tasarruf) modu geçişi eklendi\n• Gerçek ısınmış GPU hız testi (OCR CUDA + NOXIR Lingua CUDA) ve motor bazlı canlı VRAM/sürücü telemetrisi eklendi",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.10.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.10.exe",
+    "title": "NOXIR Play v1.0.11",
+    "changelog": "• Akıllı NVIDIA CUDA 12 / cuDNN 9 onarımı: Yalnızca eksik DLL paketleri indirilir, çalışan/kilitli DLL'lere dokunulmaz (daha hızlı kurulum, sıfır Windows dosya kilidi hatası)\n• Büyük cuDNN paketi inerken donmuş gibi görünen ilerleme çubuğu düzeltildi (canlı geçen süre ve paket bazlı adım takibi)\n• Güncelleme kontrolü anlık GitHub Raw manifestini önceliklendirir (CDN gecikmesi giderildi)",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.11.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.11.exe",
     "modelVersion": "2.0.0",
     "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/lingua-v2/manifest.json",
     "isCritical": false
