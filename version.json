@@ -1,11 +1,11 @@
 {
-    "version": "1.0.11",
+    "version": "1.0.12",
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-11-19",
-    "title": "NOXIR Play v1.0.11",
-    "changelog": "• Akıllı NVIDIA CUDA 12 / cuDNN 9 onarımı: Yalnızca eksik DLL paketleri indirilir, çalışan/kilitli DLL'lere dokunulmaz (daha hızlı kurulum, sıfır Windows dosya kilidi hatası)\n• Büyük cuDNN paketi inerken donmuş gibi görünen ilerleme çubuğu düzeltildi (canlı geçen süre ve paket bazlı adım takibi)\n• Güncelleme kontrolü anlık GitHub Raw manifestini önceliklendirir (CDN gecikmesi giderildi)",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.11.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.11.exe",
+    "title": "NOXIR Play v1.0.12",
+    "changelog": "• Kare Değişim Algılama (Akıllı OCR Atlama) eklendi: Sabit sahnelerde OCR atlanarak GPU/CPU yükü %50-70 azaltılır, yeni replikler daha hızlı yakalanır\n• Zorlu sahneler (karlı/parlak zemin, ince font) için adaptif 2. geçiş OCR netleştirme ve tek tıkla '🎯 Otomatik Bul' altyazı alanı tespiti eklendi\n• 7 popüler hikâyeli oyun (TLOU, RDR2, GoW, Ghost of Tsushima, Mafia, Witcher 3, Cyberpunk) için hazır sözlük paketleri eklendi\n• NOXIR Lingua özel isim koruması, Resmî/Samimi Türkçe hitap uyumu ve paralel en-yeni sürüm algılama eklendi",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.12.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.12.exe",
     "modelVersion": "2.0.0",
     "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/lingua-v2/manifest.json",
     "isCritical": false
