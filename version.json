@@ -1,11 +1,11 @@
 {
-    "version": "1.0.9",
+    "version": "1.0.10",
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-11-19",
-    "title": "NOXIR Play v1.0.9",
-    "changelog": "• NOXIR Lingua v2.0 (Hikâyeli Oyunlar) modeli eklendi: Aksiyon, hayatta kalma ve macera diyaloglarında çok daha doğal Türkçe çeviri (chrF++ +12 puan)\n• Parçalı ve SHA-256 doğrulamalı otomatik AI model güncelleyici eklendi (güncelleme sonrası uygulama içinden v2 modeli tek tıkla indirilir)\n• NOXIR Lingua çözümleme kalitesi artırıldı (beam_size=3, repetition_penalty=1.12)",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.9.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.9.exe",
+    "title": "NOXIR Play v1.0.10",
+    "changelog": "• NVIDIA Donanım Hızlandırması (CUDA 12 / cuDNN 9 / CTranslate2) yenilendi: VRAM-güvenli HEURISTIC optimizasyonu, bloklamayan anlık GPU durum takibi ve tüm 7 kritik CUDA DLL doğrulaması\n• Tek tıkla 'CUDA Güncelle / Onar' ve yeniden başlatmadan canlı NVIDIA GPU ↔ CPU (VRAM Tasarruf) modu geçişi eklendi\n• Gerçek ısınmış GPU hız testi (OCR CUDA + NOXIR Lingua CUDA) ve motor bazlı canlı VRAM/sürücü telemetrisi eklendi",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.10.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.10.exe",
     "modelVersion": "2.0.0",
     "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/lingua-v2/manifest.json",
     "isCritical": false
