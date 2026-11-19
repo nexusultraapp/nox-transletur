@@ -1,10 +1,12 @@
 {
-    "version": "1.0.8",
+    "version": "1.0.9",
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-11-19",
-    "title": "NOXIR Play v1.0.8",
-    "changelog": "• Akıllı Altyazı (Smart Subtitle), Oyun Hafızası (Game Memory) ve Oyuna Özel Terim Sözlüğü eklendi\n• Akıllı Öğrenme, Karakter Zekâsı ve Çeviri Kalite Koruması (Quality Shield) eklendi\n• Oyun Asistanı: Hikâye Yardımcısı, Görev Defteri, Altyazı Tekrarı, Akıllı Kuyruk, Tarz Stüdyosu ve Performans İzleme eklendi\n• Oyun profili sonradan seçilip aktif edilebiliyor ve Voice Translation tek tuş altyapısı eklendi; Tam Ekran modu kaldırıldı",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.8.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.8.exe",
+    "title": "NOXIR Play v1.0.9",
+    "changelog": "• NOXIR Lingua v2.0 (Hikâyeli Oyunlar) modeli eklendi: Aksiyon, hayatta kalma ve macera diyaloglarında çok daha doğal Türkçe çeviri (chrF++ +12 puan)\n• Parçalı ve SHA-256 doğrulamalı otomatik AI model güncelleyici eklendi (güncelleme sonrası uygulama içinden v2 modeli tek tıkla indirilir)\n• NOXIR Lingua çözümleme kalitesi artırıldı (beam_size=3, repetition_penalty=1.12)",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.9.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.9.exe",
+    "modelVersion": "2.0.0",
+    "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/lingua-v2/manifest.json",
     "isCritical": false
 }
