@@ -1,11 +1,11 @@
 {
-    "version": "1.0.12",
+    "version": "1.0.13",
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-11-19",
-    "title": "NOXIR Play v1.0.12",
-    "changelog": "• Kare Değişim Algılama (Akıllı OCR Atlama) eklendi: Sabit sahnelerde OCR atlanarak GPU/CPU yükü %50-70 azaltılır, yeni replikler daha hızlı yakalanır\n• Zorlu sahneler (karlı/parlak zemin, ince font) için adaptif 2. geçiş OCR netleştirme ve tek tıkla '🎯 Otomatik Bul' altyazı alanı tespiti eklendi\n• 7 popüler hikâyeli oyun (TLOU, RDR2, GoW, Ghost of Tsushima, Mafia, Witcher 3, Cyberpunk) için hazır sözlük paketleri eklendi\n• NOXIR Lingua özel isim koruması, Resmî/Samimi Türkçe hitap uyumu ve paralel en-yeni sürüm algılama eklendi",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.12.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.12.exe",
+    "title": "NOXIR Play v1.0.13",
+    "changelog": "• Evrensel Akıllı Oyun Hafızası (Her Oyuna Otomatik Uyum): Oynadığınız her oyunun türünü/evrenini canlı diyaloglardan kendisi algılar ve bağlama ekler\n• Her oyundan otomatik varlık öğrenme: Unvanlı karakterler, bölge kodları, çok kelimeli mekânlar ve örgütler otomatik sınıflandırılıp çeviride bozulmadan korunur\n• Çok turlu kanıta dayalı otomatik ton & Resmî (Siz) / Samimi (Sen) hitap çıkarımı ve konuşmacı etiketsiz oyunlarda sahne/anahtar kelime bağlam eşleştirmesi eklendi\n• Oyun Hafızası penceresine canlı algılanan tür göstergesi ve '✓ Tümünü Onayla' toplu onay butonu eklendi",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.13.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.13.exe",
     "modelVersion": "2.0.0",
     "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/lingua-v2/manifest.json",
     "isCritical": false
