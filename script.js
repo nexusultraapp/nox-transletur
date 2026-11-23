@@ -40,13 +40,13 @@ function switchAppTab(tabName) {
 }
 
 // --- 3. SHOPIER PURCHASE MODAL & LINK ---
-const SHOPIER_URL = "https://www.shopier.com/ggplayyusuf/52873712";
+const SHOPIER_DEFAULT_URL = "https://www.shopier.com/ggplayyusuf/52873712";
 
 function openShopierCheckout(e) {
   if (e && e.target && e.target.tagName === "A" && e.target.href && e.target.href.includes("shopier")) {
     return; // Native <a> tag navigates directly
   }
-  window.open(SHOPIER_URL, "_blank");
+  window.open(SHOPIER_DEFAULT_URL, "_blank");
 }
 
 function closeShopierCheckout() {
@@ -81,6 +81,35 @@ async function loadSiteVersionManifest() {
       const heroBadge = document.getElementById("heroVersionBadge");
       if (heroBadge) {
         heroBadge.innerHTML = `<i class="fa-solid fa-bolt"></i> Yeni Nesil Yapay Zeka Oyun Çevirisi · v${data.version}`;
+      }
+
+      const changelogTitle = document.getElementById("siteChangelogTitle");
+      if (changelogTitle) {
+        changelogTitle.textContent = `${data.title || "NOXIR Play v" + data.version} ile Bunlar Getirildi`;
+      }
+
+      const changelogMeta = document.getElementById("siteChangelogMeta");
+      if (changelogMeta) {
+        changelogMeta.textContent = `Sürüm: v${data.version}${data.releaseDate ? " · " + data.releaseDate : ""}`;
+      }
+
+      const changelogList = document.getElementById("siteChangelogList");
+      if (changelogList && data.changelog) {
+        const lines = data.changelog
+          .split(/\r?\n/)
+          .map(l => l.replace(/^[•\-\*]\s*/, "").trim())
+          .filter(Boolean);
+        if (lines.length > 0) {
+          changelogList.innerHTML = "";
+          lines.forEach(line => {
+            const li = document.createElement("li");
+            const icon = document.createElement("i");
+            icon.className = "fa-solid fa-check";
+            li.appendChild(icon);
+            li.appendChild(document.createTextNode(" " + line));
+            changelogList.appendChild(li);
+          });
+        }
       }
     }
   } catch (_) {
@@ -124,75 +153,35 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Escape key to close modal
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") {
-      closeShopierCheckout();
-    }
-  });
-
-  // Protected download verification button & URL params check
-  const btnVerify = document.getElementById("btnVerifyDownload");
-  if (btnVerify) {
-    btnVerify.addEventListener("click", handleDownloadVerification);
-  }
-
-  const orderInput = document.getElementById("orderInput");
-  if (orderInput) {
-    orderInput.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") {
-        handleDownloadVerification();
+  // Mobile navigation drawer
+  const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+  const mobileNavDrawer = document.getElementById("mobileNavDrawer");
+  if (mobileMenuBtn && mobileNavDrawer) {
+    mobileMenuBtn.addEventListener("click", () => {
+      const isOpen = mobileNavDrawer.classList.toggle("active");
+      const icon = mobileMenuBtn.querySelector("i");
+      if (icon) {
+        icon.className = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
       }
+    });
+    mobileNavDrawer.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        mobileNavDrawer.classList.remove("active");
+        const icon = mobileMenuBtn.querySelector("i");
+        if (icon) icon.className = "fa-solid fa-bars";
+      });
     });
   }
 
-  checkUrlPurchaseParams();
-});
-
-// --- 6. PROTECTED DOWNLOAD & VERIFICATION ---
-const PRIVATE_SETUP_DOWNLOAD_URL = SHOPIER_URL;
-
-function handleDownloadVerification() {
-  const input = document.getElementById("orderInput");
-  const msg = document.getElementById("verifyMessage");
-  if (!input || !msg) return;
-
-  const code = input.value.trim();
-  if (!code) {
-    msg.style.display = "block";
-    msg.style.background = "rgba(255, 82, 82, 0.12)";
-    msg.style.border = "1px solid rgba(255, 82, 82, 0.3)";
-    msg.style.color = "#ff8a80";
-    msg.innerHTML = "<i class='fa-solid fa-triangle-exclamation'></i> Lütfen Shopier sipariş kodunuzu veya lisans numaranızı giriniz.";
-    return;
-  }
-
-  msg.style.display = "block";
-  msg.style.background = "rgba(0, 230, 118, 0.12)";
-  msg.style.border = "1px solid rgba(0, 230, 118, 0.3)";
-  msg.style.color = "#a7f3d0";
-  msg.innerHTML = "<i class='fa-solid fa-circle-check'></i> <b>Lisans Onaylandı!</b> Kurulum paketi indirme sayfasına yönlendiriliyorsunuz...";
-
-  setTimeout(() => {
-    window.location.href = PRIVATE_SETUP_DOWNLOAD_URL;
-  }, 1000);
-}
-
-function checkUrlPurchaseParams() {
-  const params = new URLSearchParams(window.location.search);
-  if (params.get("purchased") === "true" || params.get("success") === "true" || params.get("order")) {
-    const msg = document.getElementById("verifyMessage");
-    const input = document.getElementById("orderInput");
-    if (input && params.get("order")) input.value = params.get("order");
-    if (msg) {
-      msg.style.display = "block";
-      msg.style.background = "rgba(0, 230, 118, 0.15)";
-      msg.style.border = "1px solid rgba(0, 230, 118, 0.35)";
-      msg.style.color = "#a7f3d0";
-      msg.innerHTML = "🎉 <b>Ödemeniz Onaylandı!</b> Kurulum dosyanız birkaç saniye içinde açılacaktır...";
+  // Escape key to close modal and mobile drawer
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      closeShopierCheckout();
+      if (mobileNavDrawer && mobileNavDrawer.classList.contains("active")) {
+        mobileNavDrawer.classList.remove("active");
+        const icon = mobileMenuBtn ? mobileMenuBtn.querySelector("i") : null;
+        if (icon) icon.className = "fa-solid fa-bars";
+      }
     }
-    setTimeout(() => {
-      window.location.href = PRIVATE_SETUP_DOWNLOAD_URL;
-    }, 1800);
-  }
-}
+  });
+});

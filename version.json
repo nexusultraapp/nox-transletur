@@ -1,12 +1,12 @@
 {
-    "version": "1.0.14",
-    "minSupportedVersion": "1.0.0",
-    "releaseDate": "2026-11-19",
-    "title": "NOXIR Play v1.0.14",
-    "changelog": "• Smart Subtitle Styling (Akıllı Altyazı Görünümü) eklendi: 5 görsel profil (Cinematic, Modern, Fantasy, Sci-Fi, Minimal) ile Türkçe altyazılar oyunun kendi görsel tarzına doğal uyarlanır\n• Orijinal altyazı piksel analizi (renk, kalınlık, parlak sahne), Türkçe karakter (ç, ğ, ı, İ, ö, ş, ü) doğrulamalı font seçimi ve 1080p/1440p/4K otomatik boyutlandırma eklendi\n• Varsayılan koyu kutusuz doğal gölge + ince kontur görünümü ve 15 ayarlı canlı önizlemeli '🎨 Altyazı Görünümü' penceresi eklendi\n• Manuel altyazı bölgesi ile otomatik görev/eşya/bildirim katmanları birbirine karışmadan çalışır",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.14.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.14.exe",
-    "modelVersion": "2.0.0",
-    "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/lingua-v2/manifest.json",
-    "isCritical": false
+    "version":  "1.0.15",
+    "minSupportedVersion":  "1.0.0",
+    "releaseDate":  "2026-11-24",
+    "title":  "NOXIR Play v1.0.15",
+    "changelog":  "• Saf siyah Linear-esintili yeni arayüz ve 18px Lucide vektör ikon sistemi\n• Türkçe Oyun Paketleri (Oyun Kütüphanesi, anasayfa Oyun Seç, oyuna özel altyazı konumu ve GitHub hazır paket indirme)\n• Sabit siyah altyazı rengi, otomatik TV bağlantısı ve Test Yazısı Gönder butonu\n• NLLB-600M kaldırıldı; NVIDIA CUDA GPU ve otomatik CPU INT8 Opus-MT iyileştirmesi",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.15.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.15.exe",
+    "modelVersion":  "2.0.0",
+    "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/lingua-v2/manifest.json",
+    "isCritical":  false
 }
