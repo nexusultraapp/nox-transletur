@@ -1,0 +1,67 @@
+{
+  "product_name": "NOXIR Lingua",
+  "underlying_model": "Opus-MT English-to-Turkish",
+  "model_id": "Helsinki-NLP/opus-mt-tc-big-en-tr",
+  "quantization": "CTranslate2 INT8",
+  "source_language": "English",
+  "target_language": "Turkish",
+  "modelVersion": "1.0.0",
+  "license": "Creative Commons Attribution 4.0 International (CC-BY 4.0)",
+  "attribution": "Jörg Tiedemann, Santhosh Thottingal, Helsinki-NLP (https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-tr)",
+  "totalBytes": 218552144,
+  "extractedBytes": 240779698,
+  "zipSha256": "026e69c41c10837bf0c651208293ee1f03473f883460a79d75e807bf339118d7",
+  "parts": [
+    {
+      "name": "opus-mt-en-tr.zip.part00",
+      "size": 47185920,
+      "sha256": "79baf05a5fe83c1fe08797736d983aa5401555c13a3c0f027a055df4ba4a7236"
+    },
+    {
+      "name": "opus-mt-en-tr.zip.part01",
+      "size": 47185920,
+      "sha256": "0c966dfec9386067cfd14d5732c63562d72d027c8a9032eeac6da28505cdfe6b"
+    },
+    {
+      "name": "opus-mt-en-tr.zip.part02",
+      "size": 47185920,
+      "sha256": "bc336117bc92d8e1337d9bf88795504722cc3ca6dbf33e3bfd94a898a4516897"
+    },
+    {
+      "name": "opus-mt-en-tr.zip.part03",
+      "size": 47185920,
+      "sha256": "47691ee1d4820744289926a87d10bd8a6a7183fab84f16e03ce2d04494bb4c62"
+    },
+    {
+      "name": "opus-mt-en-tr.zip.part04",
+      "size": 29808464,
+      "sha256": "0c022e41fcc84f1b6fb4c097b5dba4ff248267d0f6590b3c8255b3b99a38a6a2"
+    }
+  ],
+  "files": {
+    "MODEL_LICENSE.txt": {
+      "sha256": "9d0b3517a75ae9cebdc0662fb96e0c3aa3051b48194b81b8169ee1b14688f5fd",
+      "size_bytes": 1202
+    },
+    "config.json": {
+      "sha256": "72901fbd8abd89fb5cf4a388f26fc681f5c4c58a1e1a88b30b879f107270e7ee",
+      "size_bytes": 233
+    },
+    "model.bin": {
+      "sha256": "a5a148aae553f2573fd1f9ba735a03385f050437f98e51f8b5c4e4f9c4de3719",
+      "size_bytes": 237977893
+    },
+    "shared_vocabulary.json": {
+      "sha256": "44dd886d9f538a4b22e58d89758bd336e73b06c753a436f7531436daafcaedee",
+      "size_bytes": 1170026
+    },
+    "source.spm": {
+      "sha256": "180d3f94ddfee5585d78b702290ded0f4f9bd40f299349c8383b32a579fefad4",
+      "size_bytes": 796953
+    },
+    "target.spm": {
+      "sha256": "cd0c475692178b6c626aadaef01bd8f98d8053946938e4e67005fc1e4811d797",
+      "size_bytes": 833391
+    }
+  }
+}

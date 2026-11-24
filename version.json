@@ -1,12 +1,12 @@
 {
-    "version":  "1.0.15",
+    "version":  "1.0.16",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-24",
-    "title":  "NOXIR Play v1.0.15",
-    "changelog":  "• Tek Oyun Paketi & Çoklu OCR Sistemi (Spider-Man 2 paketi: Altyazı, Telefon ve Görev OCR'ı)\n• Bağımsız şeffaf çeviri katmanları: Altyazı, Telefon ve Görev çevirileri birbirine karışmadan ayrı overlay katmanlarında gösterilir\n• Saf siyah Linear-esintili yeni arayüz ve 18px Lucide vektör ikon sistemi\n• Türkçe Oyun Paketleri Kütüphanesi ve otomatik CPU/GPU Opus-MT optimizasyonu",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.15.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.15.exe",
-    "modelVersion":  "2.0.0",
-    "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/lingua-v2/manifest.json",
+    "title":  "NOXIR Play v1.0.16",
+    "changelog":  "• NOXIR Lingua Resmi Ceviri Motoru ve Istege Bagli Model Indirme Altyapisi\n• Hibrit Oyun Ceviri Sistemi (Oyun Kutuphanesi 0 ms + SQLite Ceviri Hafizasi + Kontrollu Fuzzy Match + AI Yedegi)\n• Coklu OCR Gorevler ve Telefon Secili Bolgenin Tam Uzerinde Yerinde Turkce Goruntuleme\n• RapidOCR Parazit Filtresi ile Anlamsiz OCR Kelimelerini Engelleme\n• Kurulum Paketi Optimizasyonu (Oyun Paketleri ve Model Agirliklari Ayrilarak 201 MB\u0027a Indirildi)",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.16.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.16.exe",
+    "modelVersion":  "1.0.0",
+    "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
 }
