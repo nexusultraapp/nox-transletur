@@ -1,11 +1,11 @@
 {
-    "version":  "1.0.16",
+    "version":  "1.0.17",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-24",
-    "title":  "NOXIR Play v1.0.16",
-    "changelog":  "• NOXIR Lingua Resmi Ceviri Motoru ve Istege Bagli Model Indirme Altyapisi\n• Hibrit Oyun Ceviri Sistemi (Oyun Kutuphanesi 0 ms + SQLite Ceviri Hafizasi + Kontrollu Fuzzy Match + AI Yedegi)\n• Coklu OCR Gorevler ve Telefon Secili Bolgenin Tam Uzerinde Yerinde Turkce Goruntuleme\n• RapidOCR Parazit Filtresi ile Anlamsiz OCR Kelimelerini Engelleme\n• Kurulum Paketi Optimizasyonu (Oyun Paketleri ve Model Agirliklari Ayrilarak 201 MB\u0027a Indirildi)",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.16.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.16.exe",
+    "title":  "NOXIR Play v1.0.17",
+    "changelog":  "• Görev ve Telefon OCR overlay pozisyonu düzeltildi\n• çeviri artık OCR bölgesinin üstünde görünüyor",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.17.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.17.exe",
     "modelVersion":  "1.0.0",
     "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
