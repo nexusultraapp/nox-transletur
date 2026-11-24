@@ -12,14 +12,14 @@
 * **LG webOS OLED/LED TV Entegrasyonu:** HDMI görüntüsünün üzerine televizyondan doğrudan altyazı giydirme.
 * **%100 Çevrimdışı Çalışma:** Sıfır internet ihtiyacı; tüm modeller bilgisayarınızda yerel çalışır.
 * **NVIDIA CUDA Tensör Hızlandırma:** RTX ve GTX serisi ekran kartlarında ultra hızlı çıkarım.
-* **Tek Parça Kurulum Sihirbazı:** `NOXIR_Play_Setup_v1.0.6.exe` ile tek tıkla zahmetsiz kurulum.
+* **Tek Parça Kurulum Sihirbazı:** `NOXIR_Play_Setup_v1.0.17.exe` ile tek tıkla zahmetsiz kurulum.
 * **540+ Replikli Oyun Sözlüğü:** Popüler oyun terimleri ve replikleri anında algılanır.
 
 ---
 
 ### 📦 Kurulum ve Kullanım:
 1. Shopier üzerinden lisansınızı edinin.
-2. `NOXIR_Play_Setup_v1.0.6.exe` dosyasını çalıştırın ve kurulumu tamamlayın.
+2. `NOXIR_Play_Setup_v1.0.17.exe` dosyasını çalıştırın ve kurulumu tamamlayın.
 3. Masaüstündeki **NOXIR Play** kısayolunu açın.
 4. PS5 Remote Play ve varsa LG TV bağlantınızı yapıp çeviriyi başlatın.
 
