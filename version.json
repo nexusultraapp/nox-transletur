@@ -1,11 +1,11 @@
 {
-    "version": "1.0.17",
+    "version": "1.0.18",
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-11-25",
-    "title": "NOXIR Play v1.0.17",
-    "changelog": "• Ultra hafif ve sıfır gecikmeli gerçek zamanlı PS5 Türkçe altyazı motoru\n• Sadeleştirilmiş modern arayüz ve tek tıkla PS5 senkronizasyonu\n• 150 TL lansman indirimi ve sınırsız ömür boyu kullanım lisansı",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.17.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.17.exe",
+    "title": "NOXIR Play v1.0.18",
+    "changelog": "• NVIDIA CUDA donanım hızlandırma paket indirme ve AI sunucu başlatma hatası düzeltildi\n• AI köprü betikleri (server.py, gpu_manager.py, translation_memory.py) ve akıllı Python ortamı seçimi eklendi\n• Otomatik güncelleme paketi tüm kurulum türleriyle tam uyumlu hale getirildi",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.18.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.18.exe",
     "modelVersion": "1.0.0",
     "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical": false
