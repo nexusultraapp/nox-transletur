@@ -1,11 +1,11 @@
 {
-    "version": "1.0.23",
+    "version": "1.0.24",
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-11-25",
-    "title": "NOXIR Play v1.0.23",
-    "changelog": "• Oyun Kütüphanesi paket içe aktarıcı artık dizi (Array) formatındaki subtitles/entries/lines JSON Türkçe yamalarını doğrudan destekler\n• İçe aktarma hata mesajlarındaki Türkçe karakter kodlama sorunları giderildi\n• NOXIR Lingua ve NVIDIA CUDA 12/13 hızlandırma kararlılığı iyileştirildi",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.23.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.23.exe",
+    "title": "NOXIR Play v1.0.24",
+    "changelog": "• PS5 Remote Play yerel köprü motoru (libnoxir-chiaki-bridge.dll ve tüm 23 bağımlı DLL) güncelleme paketine eksiksiz dahil edildi\n• Oyun Kütüphanesi dizi formatlı JSON Türkçe yama içe aktarma ve Türkçe karakter desteği\n• NOXIR Lingua ve evrensel NVIDIA CUDA 12/13 hızlandırma kararlılığı",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.24.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.24.exe",
     "modelVersion": "1.0.0",
     "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical": false
