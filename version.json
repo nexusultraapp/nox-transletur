@@ -1,11 +1,11 @@
 {
-    "version": "1.0.20",
+    "version": "1.0.21",
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-11-25",
-    "title": "NOXIR Play v1.0.20",
-    "changelog": "• Evrensel NVIDIA GPU uyumluluğu: GTX 10xx/16xx ve RTX 20xx-50xx için sürücüye göre otomatik CUDA 12/13 seçimi ve yedekleme\n• Yönetici izni gerektirmeyen --user kurulumu, otomatik pip hazırlığı ve tam Türkçe/UTF-8 klasör desteği\n• Yedek indirme sunucusu (fallback) ile tüm bilgisayarlarda kesintisiz otomatik güncelleme",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.20.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.20.exe",
+    "title": "NOXIR Play v1.0.21",
+    "changelog": "• NOXIR Lingua çevrimdışı çeviri modeli yöneticisi (lingua_manager.py) eklendi ve 'Lingua yöneticisi aktif değil' hatası giderildi\n• Çift GitHub sunucusu, parçalı devam (resume), SHA-256 bütünlük kontrolü ve eksik ctranslate2/sentencepiece otomatik kurulumu eklendi\n• Tüm PC'ler için evrensel NVIDIA CUDA 12/13 hızlandırma ve tek tıkla canlı model etkinleştirme desteği",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.21.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.21.exe",
     "modelVersion": "1.0.0",
     "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical": false
