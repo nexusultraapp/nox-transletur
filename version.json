@@ -1,12 +1,12 @@
 {
-    "version":  "1.0.17",
-    "minSupportedVersion":  "1.0.0",
-    "releaseDate":  "2026-11-24",
-    "title":  "NOXIR Play v1.0.17",
-    "changelog":  "• Görev ve Telefon OCR overlay pozisyonu düzeltildi\n• çeviri artık OCR bölgesinin üstünde görünüyor",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.17.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.17.exe",
-    "modelVersion":  "1.0.0",
-    "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
-    "isCritical":  false
+    "version": "1.0.17",
+    "minSupportedVersion": "1.0.0",
+    "releaseDate": "2026-11-25",
+    "title": "NOXIR Play v1.0.17",
+    "changelog": "• Ultra hafif ve sıfır gecikmeli gerçek zamanlı PS5 Türkçe altyazı motoru\n• Sadeleştirilmiş modern arayüz ve tek tıkla PS5 senkronizasyonu\n• 150 TL lansman indirimi ve sınırsız ömür boyu kullanım lisansı",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.17.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.17.exe",
+    "modelVersion": "1.0.0",
+    "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
+    "isCritical": false
 }
