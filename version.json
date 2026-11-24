@@ -1,11 +1,11 @@
 {
-    "version": "1.0.19",
+    "version": "1.0.20",
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-11-25",
-    "title": "NOXIR Play v1.0.19",
-    "changelog": "• NVIDIA CUDA paket kurulumundaki Windows DLL kilitlenme (onnxruntime-directml) hatası tamamen giderildi\n• CUDA 12/13 ve cuDNN 9 DLL yolları otomatik tarama ile desteklendi\n• Güncelleme denetimi anlık GitHub manifest önceliği ile hızlandırıldı",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.19.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.19.exe",
+    "title": "NOXIR Play v1.0.20",
+    "changelog": "• Evrensel NVIDIA GPU uyumluluğu: GTX 10xx/16xx ve RTX 20xx-50xx için sürücüye göre otomatik CUDA 12/13 seçimi ve yedekleme\n• Yönetici izni gerektirmeyen --user kurulumu, otomatik pip hazırlığı ve tam Türkçe/UTF-8 klasör desteği\n• Yedek indirme sunucusu (fallback) ile tüm bilgisayarlarda kesintisiz otomatik güncelleme",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.20.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.20.exe",
     "modelVersion": "1.0.0",
     "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical": false
