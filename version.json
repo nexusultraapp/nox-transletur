@@ -1,11 +1,11 @@
 {
-    "version": "1.0.22",
+    "version": "1.0.23",
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-11-25",
-    "title": "NOXIR Play v1.0.22",
-    "changelog": "• NOXIR Lingua indirme ekranındaki boyut ve hız gösterim formatı (MB / MB/s) düzeltildi\n• NOXIR Lingua çevrimdışı model kurulumu, çift ayna yedeği ve SHA-256 doğrulama ile kararlı hale getirildi\n• Tüm NVIDIA GPU ve Windows kurulumları için evrensel CUDA 12/13 hızlandırma desteği",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.22.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.22.exe",
+    "title": "NOXIR Play v1.0.23",
+    "changelog": "• Oyun Kütüphanesi paket içe aktarıcı artık dizi (Array) formatındaki subtitles/entries/lines JSON Türkçe yamalarını doğrudan destekler\n• İçe aktarma hata mesajlarındaki Türkçe karakter kodlama sorunları giderildi\n• NOXIR Lingua ve NVIDIA CUDA 12/13 hızlandırma kararlılığı iyileştirildi",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.23.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.23.exe",
     "modelVersion": "1.0.0",
     "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical": false
