@@ -1,0 +1,22 @@
+# GİZLİLİK VE KAYNAK KOD KORUMASI
+# Bu dosya, ana proje dizinindeki C# kaynak kodlarının, Python kodlarının
+# ve yapay zeka modellerinin yanlışlıkla Git'e yüklenmesini engeller.
+
+pc/
+*.cs
+*.csproj
+*.sln
+*.py
+models/
+runtime/
+InnoSetup_Output/
+.tools/
+dist/
+*.iss
+bin/
+obj/
+*.exe
+*.ipk
+*.pdb
+*.dll
+*.bak

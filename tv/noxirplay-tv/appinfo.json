@@ -1,0 +1,19 @@
+{
+  "id": "com.noxir.play.tv",
+  "version": "1.0.1",
+  "vendor": "NOXIR Play",
+  "type": "web",
+  "main": "index.html",
+  "title": "NOXIR Play",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "resolution": "1920x1080",
+  "transparent": true,
+  "supportTouchMode": false,
+  "enablePigScreenSaver": false,
+  "requiredPermissions": [
+    "media.display"
+  ],
+  "requiredACG": [],
+  "handlesRelaunch": true
+}
