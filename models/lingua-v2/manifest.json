@@ -1,0 +1,39 @@
+{
+  "modelVersion": "2.0.0",
+  "title": "NOXIR Lingua v2.0 (Hikâyeli Oyunlar)",
+  "description": "Aksiyon, hayatta kalma ve macera oyunları için yeniden eğitilmiş yerel Türkçe çeviri modeli (chrF++ +12 puan).",
+  "totalBytes": 281204734,
+  "zipSha256": "3da8e9b30456609870786add7550f2fda1ed480b33056b14662baf935fcee50e",
+  "parts": [
+    {
+      "name": "lingua-v2.zip.part00",
+      "size": 47185920,
+      "sha256": "6036ca4e09e2e26ead961a4908f764f8a69e78896fe6e1da4357150c56c162ef"
+    },
+    {
+      "name": "lingua-v2.zip.part01",
+      "size": 47185920,
+      "sha256": "eb036c247424ff2104ce4e0836e1c2bf6cd297d0063939b2ff1515ae0f31bd17"
+    },
+    {
+      "name": "lingua-v2.zip.part02",
+      "size": 47185920,
+      "sha256": "e7fcdc7aca7eb7923496abe662efce13abc9cebf7f7c45fc707047c8e6332903"
+    },
+    {
+      "name": "lingua-v2.zip.part03",
+      "size": 47185920,
+      "sha256": "83f02c759122b58fa4351d4b244f83d575fc4a2aa11dc429f41b08ce00c688b8"
+    },
+    {
+      "name": "lingua-v2.zip.part04",
+      "size": 47185920,
+      "sha256": "f155e10e475dff840503326d405b7b944cc916e1d9252731478d60a39e6d73f9"
+    },
+    {
+      "name": "lingua-v2.zip.part05",
+      "size": 45275134,
+      "sha256": "1223cebc11789a0e162397b6c8a25cdc3b168326540cf80031bec260c99328c7"
+    }
+  ]
+}
