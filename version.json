@@ -1,11 +1,11 @@
 ﻿{
-    "version":  "1.0.28",
+    "version":  "1.0.30",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-25",
-    "title":  "NOXIR Play v1.0.28",
+    "title":  "NOXIR Play v1.0.30",
     "changelog":  "Performans ve ceviri iyilestirmeleri.",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.28.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.28.exe",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.30.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.30.exe",
     "modelVersion":  "1.0.0",
     "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
