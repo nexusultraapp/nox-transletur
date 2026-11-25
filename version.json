@@ -1,11 +1,11 @@
 ﻿{
-    "version":  "1.0.35",
+    "version":  "1.0.36",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-25",
-    "title":  "NOXIR Play v1.0.35",
-    "changelog":  "OBS Yayin Merkezi eklendi: PS5 Remote Play ekrani ve canli Turkce altyazi tek kaynakta birlestirildi.",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.35.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.35.exe",
+    "title":  "NOXIR Play v1.0.36",
+    "changelog":  "Performans ve ceviri iyilestirmeleri.",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.36.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.36.exe",
     "modelVersion":  "1.0.0",
     "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
