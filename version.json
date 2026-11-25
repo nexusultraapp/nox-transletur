@@ -1,3 +1,12 @@
 {
-  "version": "1.0.27"
+  "version": "1.0.27",
+  "minSupportedVersion": "1.0.0",
+  "releaseDate": "2026-11-25",
+  "title": "NOXIR Play v1.0.27",
+  "changelog": "• Oyun Kütüphanesi aktifken pakette olmayan satırlar artık doğrudan NOXIR Lingua ile çevriliyor",
+  "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.27.exe",
+  "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.27.exe",
+  "modelVersion": "1.0.0",
+  "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
+  "isCritical": false
 }
