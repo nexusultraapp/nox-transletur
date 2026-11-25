@@ -1,11 +1,11 @@
 {
-    "version": "1.0.24",
+    "version": "1.0.26",
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-11-25",
-    "title": "NOXIR Play v1.0.24",
-    "changelog": "• PS5 Remote Play yerel köprü motoru (libnoxir-chiaki-bridge.dll ve tüm 23 bağımlı DLL) güncelleme paketine eksiksiz dahil edildi\n• Oyun Kütüphanesi dizi formatlı JSON Türkçe yama içe aktarma ve Türkçe karakter desteği\n• NOXIR Lingua ve evrensel NVIDIA CUDA 12/13 hızlandırma kararlılığı",
-    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.24.exe",
-    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.24.exe",
+    "title": "NOXIR Play v1.0.26",
+    "changelog": "• Proje SDK düzeltmesi (CS uyum)\n• UpdateService.cs: Kullanılmayan değişken temizlendi\n• FfmpegStreamService.cs: ReadToEndAsync fire-and-forget düzeltmesi\n• HybridTranslationRouter.cs: SaveAsync fire-and-forget düzeltmesi\n• Genel kod kalitesi iyileştirmeleri",
+    "downloadUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.26.exe",
+    "fallbackDownloadUrl": "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.26.exe",
     "modelVersion": "1.0.0",
     "modelManifestUrl": "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical": false
