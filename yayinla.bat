@@ -41,8 +41,19 @@ if "!NEW_VER!"=="" set "NEW_VER=!NEXT_VER!"
 echo Yayinlanacak : v!NEW_VER!
 echo.
 
+set "USE_GH_RELEASE=0"
+where gh.exe >nul 2>&1
+if %ERRORLEVEL% equ 0 (
+    gh auth status >nul 2>&1
+    if !ERRORLEVEL! equ 0 set "USE_GH_RELEASE=1"
+)
+
 echo [1/4] Surum numaralari guncelleniyor...
-powershell.exe -ExecutionPolicy Bypass -NoProfile -File "%SET_VER%" -UpdateCs "%UPDATE_CS%" -VersionJson "%VER_JSON%" -NewVer "!NEW_VER!"
+if "!USE_GH_RELEASE!"=="1" (
+    powershell.exe -ExecutionPolicy Bypass -NoProfile -File "%SET_VER%" -UpdateCs "%UPDATE_CS%" -VersionJson "%VER_JSON%" -NewVer "!NEW_VER!" -UseGitHubReleases
+) else (
+    powershell.exe -ExecutionPolicy Bypass -NoProfile -File "%SET_VER%" -UpdateCs "%UPDATE_CS%" -VersionJson "%VER_JSON%" -NewVer "!NEW_VER!"
+)
 if %ERRORLEVEL% neq 0 ( echo [HATA] Surum numaralari guncellenemedi! & pause & exit /b 1 )
 
 echo.
@@ -58,8 +69,18 @@ if %ERRORLEVEL% neq 0 ( echo [HATA] Paket olusturulamadi! & pause & exit /b 1 )
 
 echo.
 echo [4/4] GitHub'a gonderiliyor...
-git add -A
-git add -f "updates/NOXIR_Play_Update_v!NEW_VER!.exe"
+if "!USE_GH_RELEASE!"=="1" (
+    echo [BILGI] GitHub Releases ile .exe yukleniyor (repo sismesi onlenir)...
+    gh release create "v!NEW_VER!" "%UPDATES_DIR%\NOXIR_Play_Update_v!NEW_VER!.exe" --title "NOXIR Play v!NEW_VER!" --notes "NOXIR Play v!NEW_VER! guncellemesi"
+    if !ERRORLEVEL! neq 0 (
+        echo [UYARI] GitHub Release olusturulamadi, klasik updates/ yuklemesine geciliyor...
+        git add -f "updates/NOXIR_Play_Update_v!NEW_VER!.exe"
+    )
+    git add -A
+) else (
+    git add -A
+    git add -f "updates/NOXIR_Play_Update_v!NEW_VER!.exe"
+)
 git diff --cached --quiet
 if %ERRORLEVEL% neq 0 (
     git commit -m "Release v!NEW_VER!"
