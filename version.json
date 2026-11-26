@@ -1,11 +1,11 @@
-﻿{
-    "version":  "1.0.50",
+{
+    "version":  "1.0.51",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-26",
-    "title":  "NOXIR Play v1.0.50",
-    "changelog":  "• Oyun Kütüphanesi sıfır gecikme (0 ms) optimizasyonu: Format 3 hikâye paketleri ve Format 2 segmentler tam desteklendi\n• Düşük gecikmeli H.264 önizleme çözücü (0 kare tampon) ve 0.5 sn HLS canlı yayın\n• NVIDIA CUDA GPU hızlandırma (RapidOCR + NOXIR Lingua) ve sabit genişlik kovaları ile ~25-35 ms anlık çeviri\n• Harf-kenarı (glif) parmak izi ve arka plan yan bölge taraması ile kesintisiz altyazı akışı",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.50.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.50.exe",
+    "title":  "NOXIR Play v1.0.51",
+    "changelog":  "• Görev/telefon yan bölge taraması ve görüntü katmanları kaldırıldı; altyazı çevirisi korundu.",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.51.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.51.exe",
     "modelVersion":  "1.0.0",
     "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
