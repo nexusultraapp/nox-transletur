@@ -1,11 +1,11 @@
 ﻿{
-    "version":  "1.0.41",
+    "version":  "1.0.42",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-26",
-    "title":  "NOXIR Play v1.0.41",
-    "changelog":  "• OCR motorları Hızlı (Windows OCR), Orta (NOXIR Vision · Dengeli) ve Yavaş (Gelişmiş) olarak düzenlendi; PaddleOCR hazır olmadığında Windows OCR yedek olur.\n• Çeviri servisleri Düşük (NOXIR Lingua · Çevrimdışı OPUS-MT), Orta (Google Translate) ve Yüksek (DeepL API) olarak güncellendi.\n• OCR otomatik yazım düzeltme ve altyazı akıcılığı (titreme/tekrar önleme) eklendi.\n• Anında güncelleme kontrolü ve yenilenen Rehber ekranı eklendi.",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.41.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.41.exe",
+    "title":  "NOXIR Play v1.0.42",
+    "changelog":  "Performans ve ceviri iyilestirmeleri.",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.42.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.42.exe",
     "modelVersion":  "1.0.0",
     "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
