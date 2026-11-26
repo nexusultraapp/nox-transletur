@@ -1,11 +1,11 @@
 ﻿{
-    "version":  "1.0.52",
+    "version":  "1.0.53",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-26",
-    "title":  "NOXIR Play v1.0.52",
-    "changelog":  "• Oyun Seç listesi her oyun için tek giriş gösterecek şekilde sadeleştirildi; aynı oyunun ek/hikâye paketleri tek oyun altında birleştirildi.",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.52.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.52.exe",
+    "title":  "NOXIR Play v1.0.53",
+    "changelog":  "• GPU 'Yeniden Tara' butonundaki kilitlenme ve paket algılama sorunu giderildi.\n• Oyun listesi ve donanım tarama performansı optimize edildi.",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.53.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.53.exe",
     "modelVersion":  "1.0.0",
     "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
