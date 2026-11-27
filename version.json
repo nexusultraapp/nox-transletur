@@ -1,11 +1,11 @@
 {
-    "version":  "1.0.59",
+    "version":  "1.0.60",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-27",
-    "title":  "NOXIR Play v1.0.59",
-    "changelog":  "• Otomatik 1-harf OCR yazım düzeltici (chiances → chances vb.) ve günlük İngilizce konuşma/argo normalizasyonu (lemme, gimme, boot up, real quick) eklendi\n• Tek kelimelik çevrilememiş OCR parazitleri (MAKLE gibi) ve bozuk çevrilmemiş çöp satırlar için otomatik filtre eklendi.",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.59.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.59.exe",
+    "title":  "NOXIR Play v1.0.60",
+    "changelog":  "• Çevrilemeyen 4+ karakterli echo parazitleri (oh andy gibi) otomatik eleniyor, tireli yapışık ifadeler (wait-be-chill) ve kesik kalıplar (wait a se) doğal Türkçeye çevriliyor\n• Python seçiminde RapidOCR kurulu çalışma zamanına öncelik verilerek başlangıçtaki AI yanıt vermedi riski giderildi.",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.60.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.60.exe",
     "modelVersion":  "1.0.0",
     "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
