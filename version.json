@@ -1,11 +1,11 @@
 {
-    "version":  "1.0.57",
+    "version":  "1.0.58",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-27",
-    "title":  "NOXIR Play v1.0.57",
-    "changelog":  "â€¢ Yapay zeka çevirileri daha doğal Türkçe konuşma diline göre iyileştirildi (GPU\u0027da beam_size=2, 55+ doğal oyun deyimi ve robotik kalıp doğallaştırma)\nâ€¢ Yeni OCR bitişik ve ince-harf düzeltmeleri eklendi (noidea, Spider-rlan, Hle ve 6+ harf kelime ayırma).",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.57.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.57.exe",
+    "title":  "NOXIR Play v1.0.58",
+    "changelog":  "• Kelime ayırıcıdaki hece doğrama hatası (prismatic → pri sma tic, Triangulating → Tri an gul ating) kökten düzeltildi ve güncelleme paketine dahil edildi\n• Yeni OCR düzeltmeleri (180os → 1800s, Mlles → Miles, Tlove → I love, no gonna → not gonna) ve doğal Türkçe konuşma kalıpları eklendi.",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.58.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.58.exe",
     "modelVersion":  "1.0.0",
     "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
