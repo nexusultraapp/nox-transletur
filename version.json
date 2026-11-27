@@ -1,11 +1,11 @@
-﻿{
-    "version":  "1.0.54",
+{
+    "version":  "1.0.55",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-27",
-    "title":  "NOXIR Play v1.0.54",
-    "changelog":  "• Altyazı geçmişi artık kalıcı olarak kaydedilir; siz Temizle butonuna basmadığınız sürece uygulama kapansa bile korunur (1000 satıra kadar).\n• Güncelleme paketi boyutu %84 küçültüldü (~2,7 MB).",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.54.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.54.exe",
+    "title":  "NOXIR Play v1.0.55",
+    "changelog":  "â€¢ Önizleme ve TV altyazı gecikmesi düşürüldü (30 FPS düşük gecikmeli MJPEG, en taze kare önceliği ve otomatik IDR tazeleme)\nâ€¢ Çeviri Hafızasına düşük güvenli ve kesik OCR okumalarının kaydedilmesi engellendi, bulanık eşleştirme hassasiyeti artırıldı\nâ€¢ CPU yedeğinde gereksiz çoklu OCR geçiş gecikmesi azaltıldı.",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.55.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.55.exe",
     "modelVersion":  "1.0.0",
     "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
