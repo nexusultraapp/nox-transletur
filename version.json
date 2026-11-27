@@ -1,11 +1,11 @@
 {
-    "version":  "1.0.58",
+    "version":  "1.0.59",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-27",
-    "title":  "NOXIR Play v1.0.58",
-    "changelog":  "• Kelime ayırıcıdaki hece doğrama hatası (prismatic → pri sma tic, Triangulating → Tri an gul ating) kökten düzeltildi ve güncelleme paketine dahil edildi\n• Yeni OCR düzeltmeleri (180os → 1800s, Mlles → Miles, Tlove → I love, no gonna → not gonna) ve doğal Türkçe konuşma kalıpları eklendi.",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.58.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.58.exe",
+    "title":  "NOXIR Play v1.0.59",
+    "changelog":  "• Otomatik 1-harf OCR yazım düzeltici (chiances → chances vb.) ve günlük İngilizce konuşma/argo normalizasyonu (lemme, gimme, boot up, real quick) eklendi\n• Tek kelimelik çevrilememiş OCR parazitleri (MAKLE gibi) ve bozuk çevrilmemiş çöp satırlar için otomatik filtre eklendi.",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.59.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.59.exe",
     "modelVersion":  "1.0.0",
     "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
