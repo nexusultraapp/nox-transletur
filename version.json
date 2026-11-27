@@ -1,11 +1,11 @@
 {
-    "version":  "1.0.55",
+    "version":  "1.0.56",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-27",
-    "title":  "NOXIR Play v1.0.55",
-    "changelog":  "â€¢ Önizleme ve TV altyazı gecikmesi düşürüldü (30 FPS düşük gecikmeli MJPEG, en taze kare önceliği ve otomatik IDR tazeleme)\nâ€¢ Çeviri Hafızasına düşük güvenli ve kesik OCR okumalarının kaydedilmesi engellendi, bulanık eşleştirme hassasiyeti artırıldı\nâ€¢ CPU yedeğinde gereksiz çoklu OCR geçiş gecikmesi azaltıldı.",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.55.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.55.exe",
+    "title":  "NOXIR Play v1.0.56",
+    "changelog":  "â€¢ Önizleme JPEG kalitesi artırıldı (-q:v 2) ile ince harf ve iki nokta (:) okuma doğruluğu güçlendirildi\nâ€¢ OCR ince-harf düzeltmeleri (Spicler-Man, Ohman, ior, hs) ve kaçırılan konuşmacı iki noktası (:) kurtarma eklendi.",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.56.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.56.exe",
     "modelVersion":  "1.0.0",
     "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
