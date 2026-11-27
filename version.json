@@ -1,11 +1,11 @@
-{
-    "version":  "1.0.60",
+﻿{
+    "version":  "1.0.61",
     "minSupportedVersion":  "1.0.0",
     "releaseDate":  "2026-11-27",
-    "title":  "NOXIR Play v1.0.60",
-    "changelog":  "• Çevrilemeyen 4+ karakterli echo parazitleri (oh andy gibi) otomatik eleniyor, tireli yapışık ifadeler (wait-be-chill) ve kesik kalıplar (wait a se) doğal Türkçeye çevriliyor\n• Python seçiminde RapidOCR kurulu çalışma zamanına öncelik verilerek başlangıçtaki AI yanıt vermedi riski giderildi.",
-    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.60.exe",
-    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.60.exe",
+    "title":  "NOXIR Play v1.0.61",
+    "changelog":  "Performans ve ceviri iyilestirmeleri.",
+    "downloadUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/updates/NOXIR_Play_Update_v1.0.61.exe",
+    "fallbackDownloadUrl":  "https://nexusultraapp.github.io/nox-transletur/updates/NOXIR_Play_Update_v1.0.61.exe",
     "modelVersion":  "1.0.0",
     "modelManifestUrl":  "https://raw.githubusercontent.com/nexusultraapp/nox-transletur/main/models/opus-mt-en-tr/manifest.json",
     "isCritical":  false
